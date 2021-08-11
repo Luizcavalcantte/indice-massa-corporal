@@ -1,0 +1,46 @@
+body {
+  text-align: center;
+  background-image: linear-gradient(rgb(7, 7, 7), rgb(249, 250, 249));
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  font-family: sans-serif;
+}
+p {
+  display: inline-block;
+  font-size: 25px;
+  font-weight: bold;
+  margin-left: 13%;
+  margin-right: 10px;
+}
+.container {
+  margin-top: 20px;
+  padding: 30px;
+  background-color: rgba(255, 255, 255, 0.4);
+  display: inline-block;
+  text-align: left;
+  border: black solid 2px;
+  border-radius: 5px;
+  width: 480px;
+}
+input {
+  font-size: 20px;
+  border-radius: 3px;
+  border: none;
+  width: 80px;
+}
+button {
+  display: block;
+  margin: auto;
+}
+button:hover {
+  background-color: gray;
+}
+#peso {
+  margin-left: 10px;
+}
+#calcular {
+  font-size: 17px;
+  border-radius: 3px;
+  border: black solid 1px;
+}
